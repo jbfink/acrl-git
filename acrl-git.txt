@@ -1,0 +1,3 @@
+What if I told you there was something very much like Dropbox but had a difficult learning curve? Something that, rather than being easy to install and use, actually required a not-insignificant time investment to learn? And that rather than operating automatically, required you to execute a number of steps *beyond* hitting save in Word? Would you ask me why I'm telling you about this?
+
+Writing software is a hard business -- don't believe anyone who puts forward the front that they can birth fully-functioning code apropos of nothing. Programming is an iterative business; you write something, you test it, it breaks, you fix it, you write some more, it breaks something else. And it's a common scenario to have a bug arise in your code based on 

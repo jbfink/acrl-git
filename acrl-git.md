@@ -2,4 +2,6 @@ What if I told you there was something very much like Dropbox but had a difficul
 
 Writing software is hard business -- don't believe anyone who puts forward the front that they can birth fully-functioning code apropos of nothing. Programming is an iterative business; you write something, you test it, it breaks, you fix it, you write some more, it breaks something else. And it's a common scenario to have a bug arise in your code that you wrote ages ago -- sometimes years -- and you need to go back to how your code looked at a specific point in time to fix it. Common also is adding features to already mature code -- features that may break existing functionality, features that need some working out to actually function, and you want to keep them separate from what's already working.
 
+Enter version control. In programming, a *version control system* is one 
+
  If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions and 

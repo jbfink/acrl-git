@@ -16,6 +16,8 @@ Dropbox, mentioned earlier, can be thought of as a version of centralized contro
 
 A lot of version control systems work like Dropbox. [Subversion](http://subversion.apache.org/) is the most popular one and it, like Dropbox, requires that you have a central place to put files. Unlike Dropbox, there is no single Subversion company that runs a repository; you can put a Subversion server on your own machine. But in other respects it is largely similar -- your friend again needs to be able to reach your Subversion server to be able to read your files.
 
+A decentralized version control system, like [git](http://git-scm.org), [Bazaar](http://bazaar.canonical.com), or [Mercurial](http://mercurial.selenic.com), don't need a central repository. A decentralized version control system can be run entirely locally, without sharing files at all.
+
 
 
 (griffey gource youtube video link: http://www.youtube.com/watch?v=RbfL_g4mtcw)

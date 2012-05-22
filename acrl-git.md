@@ -8,6 +8,7 @@ Writing software is hard business -- don't believe anyone who puts forward the f
 
 Enter version control. In programming, a *version control system* is a program that, at a very basic level, records the state of a project and has some functionality to view past states, commonly called a *repository* Modern version control systems have the ability to incorporate changes to that state from multiple contributors, keep all revisions of a project indefinitely, have as many backups as the project as there are people with copies of the repository, and make it easy to collaborate with others. For simple projects it might be overkill, but when you're dealing with million-line codebases with hundreds to thousands of contributors, a system that keeps track of who did what when makes administration of a project not easier, but *possible*. 
 
+<brief git (or scm?) history here>
 
+ If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions. 
 
- If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions.

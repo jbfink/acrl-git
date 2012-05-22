@@ -14,7 +14,7 @@ Enter version control. In programming, a *version control system* is a program t
 
 Dropbox, mentioned earlier, can be thought of as a version of centralized control. You have your client machine, it has a Dropbox folder, and that folder hooks up to Dropbox HQ. Dropbox HQ will always try to have the most up to date version of your Dropbox folder -- if you log into Dropbox's web interface after moving a file into your local folder, you'll see that file there. If you have a friend you want to share a file with via Dropbox, that person also connects to Dropbox HQ to read the files. If your friend is absolutely unable to connect to Dropbox, they're not going to be able to read the files you put there -- Dropbox is the *central repository* of your files.
 
-A lot of version control systems work like Dropbox. [Subversion](http://)
+A lot of version control systems work like Dropbox. [Subversion](http://subversion.apache.org/) is the most popular one and it, like Dropbox, requires that you have a central place to put files. Unlike Dropbox, there is no single Subversion company that runs a repository; you can put a Subversion server on your own machine. But in other respects it is largely similar -- your friend again needs to be able to reach your Subversion server to be able to read your files.
 
 
 

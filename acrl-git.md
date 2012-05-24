@@ -2,7 +2,7 @@
 This article is CC0, aka the public domain, aka do what you want with it. Full text of the Creative Commons CC0 license can be found here: http://creativecommons.org/publicdomain/zero/1.0/legalcode
 -->
 
-Git and You: An Introduction To Modern Version Control That Will Quite Possibly Leave You Feeling More Confused Than When You Started
+An Introduction To Modern Version Control That Will Quite Possibly Leave You Feeling More Confused Than When You Started
 ==========
 
 
@@ -16,6 +16,8 @@ Dropbox, mentioned earlier, can be thought of as a version of centralized contro
 
 A lot of version control systems work like Dropbox. [Subversion](http://subversion.apache.org/) is the most popular one and it, like Dropbox, requires that you have a central place to put files. Unlike Dropbox, there is no single Subversion company that runs a repository; you can put a Subversion server on your own machine. But in other respects it is largely similar -- your friend again needs to be able to reach your Subversion server to be able to read your files. Having one *workflow* like this has a distinct advantage -- one workflow means one way of doing things and cuts down on confusion -- but the moment you have an unusual workflow you'll find yourself working against the system rather than with it.
 
+If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions.  Any modern version control system will keep *every single revision* ever made to a project, so going back to any point in development is easy.
+
 A decentralized version control system, like [git](http://git-scm.com), [Bazaar](http://bazaar.canonical.com), or [Mercurial](http://mercurial.selenic.com), doesn't need a central repository. A decentralized version control system can be run entirely locally, without sharing files at all, or it can be run in a manner similar to a centralized one.  
 
 
@@ -23,5 +25,5 @@ A decentralized version control system, like [git](http://git-scm.com), [Bazaar]
 (griffey gource youtube video link: http://www.youtube.com/watch?v=RbfL_g4mtcw)
 
 
- If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions. 
+ 
 

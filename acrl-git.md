@@ -16,17 +16,9 @@ Dropbox, mentioned earlier, can be thought of as a version of centralized contro
 
 A lot of version control systems work like Dropbox. [Subversion](http://subversion.apache.org/) is the most popular one and it, like Dropbox, requires that you have a central place to put files. Unlike Dropbox, there is no single Subversion company that runs a repository; you can put a Subversion server on your own machine. But in other respects it is largely similar -- your friend again needs to be able to reach your Subversion server to be able to read your files. Having one *workflow* like this has a distinct advantage -- one workflow means one way of doing things and cuts down on confusion -- but the moment you have an unusual workflow you'll find yourself working against the system rather than with it.
 
-If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions.  Any modern version control system will keep *every single revision* ever made to a project, so going back to any point in development is easy. You can see the revision history of this very post [right here](https://github.com/jbfink/acrl-git/commits/master) and take a look at a brief [visualization](http://www.youtube.com/watch?v=RbfL_g4mtcw) of [Jason Griffey's librarybox project](http://jasongriffey.net/librarybox/)
+If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the last ten or so saves of each file -- handy if you nuke something and need to go back to an earlier revision. But if you're a compulsive saver, you'll quickly run out of those last ten revisions.  Any modern version control system will keep *every single revision* ever made to a project, so going back to any point in development is easy. You can see the revision history of this very post [right here](https://github.com/jbfink/acrl-git/commits/master) and take a look at a brief [visualization](http://www.youtube.com/watch?v=RbfL_g4mtcw) of [Jason Griffey's librarybox project](http://jasongriffey.net/librarybox/).
+
 Decentralized version control systems are somewhat of a more recent development than centralized. A decentralized version control system, like [git](http://git-scm.com), [Bazaar](http://bazaar.canonical.com), or [Mercurial](http://mercurial.selenic.com), doesn't need a central repository. A decentralized version control system can be run entirely locally, without sharing files at all, or it can be run in a manner similar to a centralized one. This [workflow flexibility](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows) can be liberating, but it can also take some time to work out what workflow works well for a team.
 
 Another aspect of modern version control that is used most effectively by the decentralized version control systems is *branching*. Branching allows you to take your project, save the state that it's at, and start a new version of the project that may go in a radically different direction; say to test out new features that may break things. Judicious use of branching can result in always having a version of a project that is ready for release while still maintaining flexibility to make new things. Mature software projects will often have multiple branches for various feature sets.
-
-
-
-
-
-
-
-
- 
 

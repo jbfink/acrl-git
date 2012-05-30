@@ -2,7 +2,7 @@
 This article is CC0, aka the public domain, aka do what you want with it. Full text of the Creative Commons CC0 license can be found here: http://creativecommons.org/publicdomain/zero/1.0/legalcode
 -->
 
-An Introduction To Modern Version Control That Will Quite Possibly Leave You Feeling More Confused Than When You Started
+A Gentle Introduction to Modern Software Version Control
 ==========
 
 
@@ -21,4 +21,5 @@ If you're a serious Dropbox wonk, you've probably noticed that Dropbox keeps the
 Decentralized version control systems are somewhat of a more recent development than centralized. A decentralized version control system, like [git](http://git-scm.com), [Bazaar](http://bazaar.canonical.com), or [Mercurial](http://mercurial.selenic.com), doesn't need a central repository. A decentralized version control system can be run entirely locally, without sharing files at all, or it can be run in a manner similar to a centralized one. This [workflow flexibility](http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows) can be liberating, but it can also take some time to work out what workflow works well for a team. In our local development center we have one developer and one systems administrator, so consequently our workflows tend to be quite simple. The developer has his own desktop machine at which he works, the application being developed runs live on a server in the basement, and another machine contains a central git repository. The developer writes and tests code on his machine and, when he is happy with the state of development, [pushes](http://git-scm.com/docs/git-push) that code to the central repository. He then tells the system admin to [pull](http://git-scm.com/docs/git-pull) those changes to the live server where they are incorporated into the code. Because git keeps all revisions of a project, it's easy to roll back changes if they don't work.
 
 Another aspect of modern version control that is used most effectively by the decentralized version control systems is *branching*. Branching allows you to take your project, save the state that it's at, and start a new version of the project that may go in a radically different direction; say to test out new features that may break things. Judicious use of branching can result in always having a version of a project that is ready for release while still maintaining flexibility to make new things. Mature software projects will often have multiple branches for various feature sets. When those feature sets can be integrated into the main branch of the software, they can usually be moved painlessly or, if necessary, thrown away without affecting any working code.
+
 

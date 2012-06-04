@@ -24,4 +24,4 @@ Another aspect of modern version control that is used most effectively by the de
 
 Software version control comes with a learning curve, but as libraries start becoming producers of code as well as consumers of it, it will be an important tool to know about.  
 
-*About our guest author: John Fink is Digital Scholarship Librarian at McMaster University in Hamilton, Ontario. He holds an MLS from San Jose State University*
+*About our guest author: John Fink is Digital Scholarship Librarian at McMaster University in Hamilton, Ontario. He holds an MLS from San Jose State University, and has spent most of his working life in library systems departments. His primary research interests are copyright, physical computing, and emerging technologies.*
